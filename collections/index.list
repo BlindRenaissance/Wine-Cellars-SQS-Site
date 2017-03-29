@@ -1,7 +1,5 @@
 {.section collection}
 
-  <a href="/buy-tickets" id="fixedbutton">Buy Tickets</a>
-
   {.if collections.1}
   <nav id="parallax-nav">
     {.repeated section collections}

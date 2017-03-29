@@ -1,5 +1,7 @@
 {.section collection}
 
+  <squarespace:block-field id="fixedbutton" columns="12"/>
+
   {.if collections.1}
   <nav id="parallax-nav">
     {.repeated section collections}

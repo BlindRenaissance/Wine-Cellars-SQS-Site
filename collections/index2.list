@@ -1,3 +1,4 @@
+<squarespace:block-field id="fixedbutton" columns="12"/>
 {.section collection}
 
   {.if collections.1}

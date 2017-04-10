@@ -1,0 +1,78 @@
+      h1.page-title {
+          text-shadow: rgba(0, 0, 0, .7) 2px 3px 2px;
+      }
+      #page-56142aade4b0f57a2f35ad29 .summary-read-more-link {
+          display: none!important;
+      }
+
+/* Homepage Custom Awards and Calendar */
+
+      #awards {
+          position: absolute;
+          padding: 10px;
+          top: 154px;
+          left: 80px;
+          width: 250px;
+          height: auto;
+          color: #fff;
+          background-color: rgba(223, 122, 28, .8);
+          z-index: 4000;
+      }
+      #tCalendar {
+          position: absolute;
+          padding: 10px;
+          top: 407px;
+          left: 80px;
+          width: 250px;
+          height: auto;
+          color: #fff;
+          background-color: rgba(186, 163, 171, .8);
+          z-index: 4000;
+      }
+      #tCalendar a,
+      #awards a {
+          color: #fff;
+      }
+      #tCalendar .sqs-block-summary-v2 .summary-title a {
+          color: #eee!important;
+      }
+      #tCalendar .sqs-block-summary-v2 .summary-metadata-item {
+          color: #ccc!important;
+      }
+      .summary-title {
+          font-size: 16px;
+      }
+      #tCalendar .sqs-block-summary-v2 .summary-block-setting-design-list .summary-item {
+          padding-bottom: 0px !important
+      }
+      #awards .sqs-block,
+      #tCalendar .sqs-block {
+          padding-bottom: 0px;
+      }
+      #tCalendar .summary-title {
+          margin-bottom: 2px!important;
+      }
+      @media screen and (max-width: 768px) {
+          #tCalendar,
+          #awards {
+              display: none;
+          }
+      }
+/* summary format */
+
+      .sqs-block-summary-v2 .summary-title,
+      .sqs-block-summary-v2 .summary-heading {
+          text-transform: initial;
+      }
+      .sqs-block-summary-v2 .summary-title a,
+      .sqs-block-summary-v2 .summary-heading a,
+      .sqs-block-summary-v2 .summary-title a:link,
+      .sqs-block-summary-v2 .summary-heading a:link,
+      .sqs-block-summary-v2 .summary-title a:visited,
+      .sqs-block-summary-v2 .summary-heading a:visited,
+      .sqs-block-summary-v2 .summary-metadata-item,
+      .sqs-block-summary-v2 .summary-metadata-item a,
+      .sqs-block-summary-v2 .summary-metadata-item a:link,
+      .sqs-block-summary-v2 .summary-metadata-item a {
+          color: hsla(0, 0%, 20%, 1)!important;
+      }

@@ -1,3 +1,6 @@
+<squarespace:block-field id="awards" columns="12"/>
+<squarespace:block-field id="tCalendar" columns="12"/>
+
 {.section collection}
 
   {.if collections.1}
